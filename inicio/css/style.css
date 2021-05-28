@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pattaya', sans-serif;    
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+a{
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    background: rgb(255, 235, 204);
+    text-decoration: none;
+    color: #58350f;
+    font-size: 2em;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #8b5316;
+}
