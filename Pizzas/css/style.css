@@ -1,0 +1,144 @@
+body{
+    font-family: 'Pattaya', sans-serif;    
+    background-color: #fcf7e1;
+    margin: 0;
+}
+
+.cabecera{
+    background-color: rgb(224, 168, 83);
+    align-content: center;
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+.titulo1{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 10vp;
+    color: #58350f;
+}
+
+.tarjeta a{
+    color: #58350f;
+    text-decoration: none;
+}
+
+.tarjeta:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0, 70%);
+    background: rgb(224, 168, 83);
+}
+
+.tarjeta a:visited{
+    text-decoration: none;
+    color: #58350f;
+}
+
+.tarjeta-content h2{
+    margin-top: 1vh;
+    margin-bottom: .5em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.tarjeta-content p{
+    font-size: 95%;
+    padding-left: 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+.tarjeta{    
+    margin-bottom: 2em;
+    width: 33%;
+    background: rgb(255, 235, 204);
+}
+
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.menu-section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.menu-simple-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 235, 204);
+}
+
+.menu-simple-menu ul a{
+    display: block;
+    text-decoration: none;
+    color: #58350f;
+    padding: .6em 1em;
+}
+
+.menu-simple-menu ul a:hover{
+    background: rgb(224, 168, 83);;
+}
+
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-simple-menu li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+footer{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 10vp;
+    color: #58350f;
+}
+
+.contacto li{
+    list-style-type: none;
+}
+
+@media screen and (mind-width: 5sem){
+    .centrado{
+        margin: 0 auto;
+        padding: 0 .6em;
+        max-width: 52em;
+    }
+
+    .contacto li{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <div class="centrado">
+        <section class="menu-section">
+            <img src="../Pizzas/images/logo.JPG" alt="" class="logo">
+            <nav class="menu-simple-menu">
+                <ul>
+                    <li><a href="../inicio/index.html">Inicio</a></li>
+                    <li><a href="../nosotros/Index.html">Historia</a></li>
+                    <li><a href="../Pizzas/Index.html">Pizzas de la casa</a></li>
+                    <li><a href="../variedades/Index.html">Variedades</a></li>
+                    <li><a href="../contacto/Index.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <header class="cabecera">
+        <div class="centrado">
+            <div class="site-branding">
+                <h1 class="titulo1">Contactanos</h1>
+            </div>
+        </div>
+    </header>
+    <div id="formularios">
+        <form action="ejemplo.php" method="get">
+            <p>Nombre: <input type="text" name="nombre" size="15"></p>
+            <p>Apellido: <input type="text" name="apellido" size="15"></p>
+            <p>Email: <input type="email" id="email" name="email" size="25"></p>
+            <label for="">Motivo:</label>
+                <select id="motivo">
+                    <option value="Comentario">Comentario</option>
+                    <option value="Agradecimiento">Agradecimiento</option>
+                    <option value="Queja">Queja</option>
+                </select>
+            </p>
+            <p>Deja aqui tu comentario
+               <br><textarea name="message" rows="15" cols="50"></textarea>
+            </p>              
+          </form>   
+          <p class="boton_enviar">
+            <a href="#">Enviar</a>
+        </p>       
+    </div>   
+    <footer>
+        <div id="datos">
+            <ul class="contacto">
+                <li>Avenida Mitre 753 - Avellaneda</li>
+                <li>4202-5136</li>
+                <li>Buenos Aires</li>
+            </ul>
+        </div>   
+    </footer>  
+</body>
+</html>

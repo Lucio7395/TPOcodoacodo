@@ -1,0 +1,121 @@
+body{
+    font-family: 'Pattaya', sans-serif;    
+    background-color: #fcf7e1;
+    margin: 0;
+}
+
+.cabecera{
+    background-color: rgb(224, 168, 83);
+    align-content: center;
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+.titulo1{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 10vp;
+    color: #58350f;
+}
+
+.menu-section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.menu-simple-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 235, 204);
+}
+
+.menu-simple-menu ul a{
+    display: block;
+    text-decoration: none;
+    color: #58350f;
+    padding: .6em 1em;
+}
+
+.menu-simple-menu ul a:hover{
+    background: rgb(224, 168, 83);;
+}
+
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-simple-menu li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+footer{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 10vp;
+    color: #58350f;
+}
+
+.contacto li{
+    list-style-type: none;
+}
+
+#formularios{
+    display:block;
+    margin:auto;
+    text-align: center;
+    width: 500px;
+    color: #58350f;
+}
+  
+.boton_enviar a{
+    padding: .6em .5em;
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    color: #58350f;
+    background: rgb(255, 235, 204);
+}
+
+.boton_enviar a:hover{
+    background: rgb(224, 168, 83);;
+}
+    
+
+@media screen and (mind-width: 5sem){
+    .centrado{
+        margin: 0 auto;
+        padding: 0 .6em;
+        max-width: 52em;
+    }
+
+    .contacto li{
+        display: inline-block;
+    }
+
+    #formularios{
+        margin: 0 auto;
+        padding: 0 .6em;
+        max-width: 52em;
+        width: 100%;
+        margin-top: 0;
+        text-align: left;
+    }
+}
